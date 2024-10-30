@@ -17,5 +17,7 @@ int main()
         break; 
         case'%':printf("modulas of 2 numbers: %d",a%b);
         break;
+        default:printf("%c is not a valid operater:",op);
+            break;
     }
 }
