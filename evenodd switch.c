@@ -1,8 +1,8 @@
 #include<stdio.h>
-int main();
+int main()
 {
-    int n;
-    float c;
+    int n,c;
+    
     printf("enter the value of n ");
     scanf("%d",&n);
      c=n%2;
